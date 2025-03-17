@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Download, Image as ImageIcon, Video } from "lucide-react";
 import { formatDate, downloadMedia, isImage, isVideo } from "@/utils/mediaUtils";
 import { MediaItem } from "@/types";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 
 interface MediaCardProps {
   media: MediaItem;
